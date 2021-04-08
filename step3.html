@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Påskäggsjakten</title>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+      <div class="third">
+        <div class="menuBar">
+          <button class="leftMenu" name="ledtrad" type="button" onclick="showClueBox(3)">
+            LEDTRÅD
+          </button>
+          <div class="centerMenu">
+            <p>PÅSKÄGGSJAKTEN</p>
+          </div>
+          <button class="rightMenu" name="nasta" type="button" onclick="showAnswerBox(3)">
+            NÄSTA
+          </button>
+        </div>
+        <h3 class="question3">
+          <br>
+          För att gå vidare till nästa nivå måste ni tillsammans ta reda på hur många hammare Moffa har!
+          <br>
+          Ni får fråga Moffa, men han får INTE veta att ni är på uppdrag!!
+        </h3>
+        <br>
+        <div class="clueBox" id="clueBox3">
+          <p><br><br>Detta uppdrag har tyvärr ingen ledtråd</p>
+          <button type="button" name="button" onclick="closeClueBox(3)">Stäng</button>
+        </div>
+
+        <div class="answerBox">
+          <p>Skriv i koden. Tryck sedan på<br>"Gå vidare"</p>
+          <input type="text" name="answerBoxInput" value="" id="answer">
+          <br>
+          <button type="button" name="gaVidare" onclick="codeValidator(3)">Gå vidare</button>
+        </div>
+
+      </div>
+    </body>
+</html>

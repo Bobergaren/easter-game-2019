@@ -1,0 +1,42 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Påskäggsjakten</title>
+      <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+      <script src="main.js"></script>
+    </head>
+    <body>
+      <div class="fourth">
+        <div class="menuBar">
+          <button class="leftMenu" name="ledtrad" type="button" onclick="showClueBox(2)">
+            LEDTRÅD
+          </button>
+          <div class="centerMenu">
+            <p>PÅSKÄGGSJAKTEN</p>
+          </div>
+          <button class="rightMenu" name="nasta" type="button" onclick="showAnswerBox(2)">
+            NÄSTA
+          </button>
+        </div>
+        <br>
+        <div class="clueBox" id="clueBox4">
+          <br>
+          <button type="button" name="button" onclick="closeClueBox(4)">Stäng</button>
+          <br>
+          <div class="clueBox4Text">
+            <h4>
+              TIPS!!För att hitta ägget behöver ni en spade och kratta.
+            </h4>
+          </div>
+        </div>
+
+        <div class="answerBox">
+          <p>Skriv i koden. Tryck sedan på<br>"Gå vidare"</p>
+          <input type="text" name="answerBoxInput" value="" id="answer">
+          <br>
+          <button type="button" name="gaVidare" onclick="codeValidator(4)">Gå vidare</button>
+        </div>
+
+      </div>
+    </body>
+</html>

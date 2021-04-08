@@ -1,0 +1,52 @@
+Step1 - KARTA:
+  Karta med markering där ett synligt ägg ligger.
+
+  Ägget har x antal godisar och en kod.
+  Genom att trycka på nästa kan spelaren knappa in koden. Om den är rätt går spelar vidare till step2
+  Annars hamnar spelaren tillbaka till step1-sidan.
+
+INGEN LEDTRÅD - Denna nivå har ingen ledtråd
+
+Step2 - KARTA:
+  Karta med cirkelmarkering där äggen befinner sig. Relativt svårt att hitta.
+  Om spelaren trycker på ledtråd så ska det visas en mer detaljerad bild på var ägget befinner sig.
+
+  Ägget har x antal godisar och en kod.
+  Genom att trycka på nästa kan spelaren knappa in koden. Om den är rätt går spelar vidare till step3
+  Annars hamnar spelaren tillbaka till step2-sidan.
+
+Step3 - MISSION:
+  Svårighetsgrad: 1
+  Äggjägare: Nils, Wilmer och Ebbe
+  Uppdrag: För att gå vidare till nästa nivå måste ni tillsammans ta reda på hur många hammare Moffa har!
+           Ni får fråga Moffa, men han får INTE veta att ni är på uppdrag!!
+  Genom att trycka på nästa så måste spelaren skriva in hur många hammare som Moffa har. Om det är rätt går spelar vidare till step4
+  Annars hamnar spelaren tillbaka till step3-sidan.
+
+INGEN LEDTRÅD - Denna nivå har ingen ledtråd
+
+Step4 - KARTA
+  Karta med cirkelmarkering där äggen befinner sig. Relativt svårt att hitta.
+  Om spelaren trycker på ledtråd så ska det visas en mer detaljerad bild på var ägget befinner sig.
+
+  Ägget har x antal godisar och en kod.
+  Genom att trycka på nästa kan spelaren knappa in koden. Om den är rätt går spelar vidare till step5
+  Annars hamnar spelaren tillbaka till step4-sidan.
+
+Step5 - MISSION
+  Svårighetsgrad: 3
+  Äggjägare: Nils
+  Uppdrag: Ett påskägg har under natten blåst upp i ett äppelträd bakom lekstugan. Det är svårt att nå,
+  men om Nils kan nå det, så kan ni ta er ett steg närmare GULD-ägget.
+
+  Genom att trycka på nästa kan spelaren knappa in koden. Om den är rätt går spelar vidare till step6
+  Annars hamnar spelaren tillbaka till step5-sidan.
+
+Step6 - MISSION + KARTA
+  Svårighetsgrad: 5
+  Äggjägare: ALLA
+  Uppdrag: Bra jobbat! Ni har tagit er till det sista steget. Om ni klarar detta kommer ni att hitta det
+           stora GULDÄGGET. För att göra det måste ni ta er hela vägen bort till Riddare Fyrklöver land. Följ karta och tryck på
+           nästa när ni kommer fram.
+
+Step7 - MISSION + Karta

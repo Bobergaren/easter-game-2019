@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Påskäggsjakten</title>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+      <div class="first">
+        <div class="menuBar">
+          <button class="leftMenu" name="ledtrad" type="button" onclick="showClueBox()">
+            LEDTRÅD
+          </button>
+          <div class="centerMenu">
+            <p>PÅSKÄGGSJAKTEN</p>
+          </div>
+          <button class="rightMenu" name="nasta" type="button" onclick="showAnswerBox()">
+            NÄSTA
+          </button>
+        </div>
+
+        <div class="clueBox">
+          <p><br><br>Detta uppdrag har tyvärr ingen ledtråd</p>
+          <button type="button" name="button" onclick="closeClueBox()">Stäng</button>
+        </div>
+
+        <div class="answerBox">
+          <p>Skriv i koden. Tryck sedan på<br>"Gå vidare"</p>
+          <input type="text" name="answerBoxInput" value="" id="answer">
+          <br>
+          <button type="button" name="gaVidare" onclick="codeValidator(1)">Gå vidare</button>
+        </div>
+
+      </div>
+    </body>
+</html>
