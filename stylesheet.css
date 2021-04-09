@@ -22,7 +22,7 @@ h4 {
 }
 
 .start{
-	background-image: url("step1_map.png");
+	background-image: url("step1_map.jpg");
 	/* Full height */
 	height: 100%;
 	width: 100%;
@@ -34,7 +34,7 @@ h4 {
 }
 
 .first{
-	background-image: url("step1_map.png");
+	background-image: url("step1_map.jpg");
 	/* Full height */
 	height: 100%;
 	width: 100%;
@@ -69,7 +69,7 @@ h4 {
 }
 
 .fourth{
-  background-image: url("step4_map.png");
+  background-image: url("step4_map.jpg");
 
 	/* Full height */
 	height: 100%;
@@ -82,7 +82,7 @@ h4 {
 }
 
 .fifth{
-  background-image: url("step5_map.png");
+  background-image: url("step5_map.jpg");
 
 	/* Full height */
 	height: 100%;
@@ -95,7 +95,7 @@ h4 {
 }
 
 .sixth{
-  background-image: url("step7_map.png");
+  background-image: url("step7_map.jpg");
 
 	/* Full height */
 	height: 100%;
